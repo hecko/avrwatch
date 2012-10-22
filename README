@@ -7,3 +7,5 @@ plne funkcna a otestovana na ATMega8L - PDIP verzia
     7 segment display SA36-11GWA cez cca 100 Ohm odpory (spolocna anoda)
     tlacitla su medi INT pinmi a GND s 10K resistormi na pinoch do VCC
     napajane cez CR2032, alebo 2xAA 
+
+programovanie je testovane na programatore usbtiny
