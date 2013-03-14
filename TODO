@@ -1,1 +1,3 @@
-volat setup mod ked je stale stlacene tlacidlo po zobrazeni casu
+namiesto setup modu pouzit dve tlacidla len na nastavovanie casu
+a pridat tilt senzor pre zobrazenie casu. ten pripojit namiesto bodky, 
+alebo niekam inam, lebo nam dochadzaju piny na atmega8 - alternativou je pouzit atmega168 s viac pinmi
