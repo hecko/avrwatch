@@ -4,8 +4,8 @@
 // RTC - Interny
 // Autor: Marek Blasko
 // Licencia: GPL
-// POZOR! pini pe externy kristal async oscilatora su
-// zdielane z klasickym oscilatorom CPU msi bezat na interny
+// POZOR! piny pe externy kristal async oscilatora su
+// zdielane s klasickym oscilatorom CPU musi bezat na interny
 // RC oscilator.
 #include <avr/io.h>
 #include <avr/interrupt.h>
