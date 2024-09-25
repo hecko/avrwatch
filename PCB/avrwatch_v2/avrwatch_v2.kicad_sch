@@ -1004,6 +1004,92 @@
 				)
 			)
 		)
+		(symbol "QuorumPrecision:CR2032-120591"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "QuorumPrecision:CR2032-120591"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CR2032-120591_1_1"
+				(pin input line
+					(at 0 2.54 0)
+					(length 2.54)
+					(name "POS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -2.54 0)
+					(length 2.54)
+					(name "NEG"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Switch:SW_Push"
 			(pin_numbers hide)
 			(pin_names
@@ -2208,6 +2294,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.355 113.03) (xy 177.8 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "02202f46-b7c8-463d-9af2-4e2e7f3ac795")
+	)
+	(wire
+		(pts
+			(xy 173.355 115.57) (xy 177.8 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0fce569b-8e03-46fa-b7dc-65e0c2d33c88")
+	)
+	(wire
+		(pts
 			(xy 83.185 46.99) (xy 84.455 46.99)
 		)
 		(stroke
@@ -2318,6 +2424,16 @@
 	)
 	(wire
 		(pts
+			(xy 173.355 117.475) (xy 173.355 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33e1f3bf-f36a-45e3-aa59-c3560b656a9c")
+	)
+	(wire
+		(pts
 			(xy 132.08 114.3) (xy 132.08 116.84)
 		)
 		(stroke
@@ -2365,6 +2481,16 @@
 			(type default)
 		)
 		(uuid "3cc1fe42-f88c-4bf7-af83-ef52bec95ff9")
+	)
+	(wire
+		(pts
+			(xy 173.355 111.125) (xy 173.355 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f64fd5a-0eb6-4cad-8c2a-f8c9be567ac2")
 	)
 	(wire
 		(pts
@@ -2575,6 +2701,16 @@
 			(type default)
 		)
 		(uuid "868ebf34-a9fc-4ebc-842e-b54501d9bc90")
+	)
+	(wire
+		(pts
+			(xy 177.8 113.03) (xy 177.8 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a6cd045-afc6-43e8-b3ae-a9e7dca963f5")
 	)
 	(wire
 		(pts
@@ -2898,6 +3034,16 @@
 	)
 	(wire
 		(pts
+			(xy 177.8 115.57) (xy 177.8 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e8324e09-b03b-41f4-bcd4-838454eb17b6")
+	)
+	(wire
+		(pts
 			(xy 125.095 82.55) (xy 136.525 82.55)
 		)
 		(stroke
@@ -2968,6 +3114,7 @@
 	)
 	(label "TX"
 		(at 217.805 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2978,6 +3125,7 @@
 	)
 	(label "RST"
 		(at 98.425 95.25 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2988,6 +3136,7 @@
 	)
 	(label "MOSI"
 		(at 217.805 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3009,6 +3158,7 @@
 	)
 	(label "MISO"
 		(at 205.105 88.9 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3041,6 +3191,7 @@
 	)
 	(label "SCK"
 		(at 205.105 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3051,6 +3202,7 @@
 	)
 	(label "RX"
 		(at 205.105 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3061,6 +3213,7 @@
 	)
 	(label "RST"
 		(at 193.675 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4291,6 +4444,206 @@
 			(project "avrwatch_v2"
 				(path "/5ceebfbb-dd09-49ab-894f-138ab0d54fc6"
 					(reference "#PWR0107")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "avrwatch_v2-rescue:VCC-power")
+		(at 173.355 111.125 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1a377061-7fa1-4dd5-8fa4-0f940d2e1623")
+		(property "Reference" "#PWR01"
+			(at 173.355 114.935 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VCC"
+			(at 173.736 106.7308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.355 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.355 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.355 111.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2355ee54-dedb-4e13-b1af-74eeb0a197db")
+		)
+		(instances
+			(project "avrwatch_v2"
+				(path "/5ceebfbb-dd09-49ab-894f-138ab0d54fc6"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "QuorumPrecision:CR2032-120591")
+		(at 177.8 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d0dc9b7d-7826-43ed-8a31-7fd833a1e052")
+		(property "Reference" "P1"
+			(at 181.61 113.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "~"
+			(at 181.61 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "QuorumPrecision:CR2032-120591"
+			(at 177.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e0d7eab1-2485-467c-bfac-aac19ef788fa")
+		)
+		(pin "2"
+			(uuid "a7d11e46-967a-4a13-96f5-bb66be11507b")
+		)
+		(instances
+			(project "avrwatch_v2"
+				(path "/5ceebfbb-dd09-49ab-894f-138ab0d54fc6"
+					(reference "P1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "avrwatch_v2-rescue:GND-power")
+		(at 173.355 117.475 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e46d3dec-971f-4ddb-9914-7f577165e760")
+		(property "Reference" "#PWR02"
+			(at 173.355 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.482 121.8692 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.355 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.355 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 173.355 117.475 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e988bacb-5932-420e-adcd-1656261cfa7c")
+		)
+		(instances
+			(project "avrwatch_v2"
+				(path "/5ceebfbb-dd09-49ab-894f-138ab0d54fc6"
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)

@@ -117,7 +117,7 @@
 			)
 		)
 		(property "Value" "ATmega328P-AU"
-			(at 0 6.05 270)
+			(at 0 6.05 -90)
 			(layer "F.Fab")
 			(uuid "e8d60c1d-cf7a-4249-b3ff-e3cac844a16b")
 			(effects
@@ -2878,6 +2878,144 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "QuorumPrecision:CR2032-120591"
+		(layer "B.Cu")
+		(uuid "710186a8-d0df-45ce-a598-aed17587cc34")
+		(at 130.2 75 180)
+		(property "Reference" "P1"
+			(at 0 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "3ce2b41c-0d0c-4ad5-a5ad-c73b1d410691")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Value" "~"
+			(at 0 -1 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "5628c175-5c21-4e55-ae04-ccc65e2f3820")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Footprint" "QuorumPrecision:CR2032-120591"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d71d356a-8a63-4721-aea2-e09235f1e94a")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4116bf41-2030-4c1e-b75b-5d85f1740e40")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "3af9a56a-5dd1-441d-b274-52586674b4ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(path "/d0dc9b7d-7826-43ed-8a31-7fd833a1e052")
+		(sheetname "Root")
+		(sheetfile "avrwatch_v2.kicad_sch")
+		(attr through_hole)
+		(fp_circle
+			(center 0 0)
+			(end 0 11.5)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "B.SilkS")
+			(uuid "54c72844-7a13-4264-9932-9cb2fe9efb3d")
+		)
+		(fp_text user "+"
+			(at -10 0.5 0)
+			(unlocked yes)
+			(layer "B.SilkS")
+			(uuid "f2ca88ab-54b6-4b51-a952-303cd1a46269")
+			(effects
+				(font
+					(size 2 2)
+					(thickness 0.3)
+				)
+				(justify left bottom mirror)
+			)
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 -2.5 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "4ed5a41c-634f-41c9-acef-dfed4dc9b52e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(pad "1" thru_hole circle
+			(at -13.65 0 180)
+			(size 4 4)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 8 "VCC")
+			(pinfunction "POS")
+			(pintype "input")
+			(thermal_bridge_angle 90)
+			(uuid "5df22026-5f7f-4da7-8399-68df5f041e4f")
+		)
+		(pad "2" thru_hole circle
+			(at 13.65 0 180)
+			(size 4 4)
+			(drill 2)
+			(layers "*.Cu" "*.Mask")
+			(remove_unused_layers no)
+			(net 7 "GND")
+			(pinfunction "NEG")
+			(pintype "input")
+			(thermal_bridge_angle 90)
+			(uuid "ab6cb203-f947-4d36-8815-949e8709dd6d")
 		)
 	)
 	(gr_line
